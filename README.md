@@ -1,29 +1,27 @@
-# GigaGal!
+# GigaGal DX
 
-So here's my crack at creating a specification for what the game is going to look like.
+This repo contains an extended version of the Udacity course project GigaGal (https://classroom.udacity.com/courses/ud406)
 
-I don't think we're going to add multiple screens, nor multiple levels. The game will just consist of a single level, which the player will navigate from beginning to end.
+## Installing
 
+Clone the repository with the command line:
 
-## Assets
+```
+$ git clone https://github.com/gianpierobozza/gigagaldx
+```
 
-The game requires a number of 
+Then Import the project in Android Studio
 
-## The Level Loader
+## Authors
 
-The Level loader will load a level specified in a PNG file, with elements 
+* **Gianpiero Bozza** - *Initial work* - [gianpiero.bozza](https://github.com/gianpiero.bozza)
 
-## The Player
+## License
 
-GigaGal can walk left and right, and can jump. She has a three element walk loop while moving on the ground, and an alternative sprite when she's in midair. She can fire bullets, which play a three element explosion animation when they hit something.
+This project is licensed under the APACHE2.0 License - see the [LICENSE.md](LICENSE.md) file for details
 
-## The Bullets
+## Acknowledgments
 
-## The Platforms
-
-The platforms wi 
-
-
-## The enemies
-
-Enemies can be spawned on top of platforms, and will walk back and forth at a constant rate, turning around if they reach the end of a platform or run into another enemy. 
+* Udacity for the kickoff on learning awesome new things and creating this project and all the assets contained
+* BadLogicGames for the impressive multi-platform library LibGDX (http://libgdx.badlogicgames.com/)
+* Overlap2D, an incredible ppen minded editor for modern 2D games (http://overlap2d.com/)
